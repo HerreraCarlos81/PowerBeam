@@ -5,7 +5,7 @@ This repository contains a set of PowerShell scripts designed to interact with t
 ## Scripts
 
 1. **powerbeam_start.ps1**: Sends a POST request to the Hyperbeam API to start a session. The response, including the session ID and embed URL, is saved to a `response.json` file and opening the session on the standard browser.
-2. **powerbeam_terminate.ps1**: Reads the session ID from the saved `response.json` file and sends a DELETE request to terminate the session.
+2. **powerbeam_disable.ps1**: Reads the session ID from the saved `response.json` file and sends a DELETE request to terminate the session.
 
 ## Prerequisites
 
