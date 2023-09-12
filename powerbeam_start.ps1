@@ -25,5 +25,8 @@ $jsonContent = Get-Content -Path ".\response.json" | ConvertFrom-Json
 # Fetch the embed URL from the JSON content
 $embedUrl = $jsonContent.embed_url
 
+# Print the embed URL with a message to the user
+Write-Output "This is the sharable link for the Hyperbeam browser session: $embedUrl"
+
 # Open the embed URL in the default browser
 Start-Process $embedUrl
